@@ -157,7 +157,7 @@
           <div class="col-md-6">
             <div class="mt-5">
               <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, consequuntur?</h1>
-              <button class="btn btn btn-outline rounded-pill mt-3" type="button" style="margin-right: 10px; width: 200px; border-color: #234CAD; color: #234CAD; " data-toggle="modal" data-target="#exampleModal">Daftar</button>
+              <button class="btn btn btn-outline rounded-pill mt-3" type="button" style="margin-right: 10px; width: 200px; border-color: #234CAD; color: #234CAD; " data-toggle="modal" data-target="#exampleModal2">Register</button>
             </div>
           </div>
         </div>
@@ -304,6 +304,45 @@
         </div>
       </div>
     </div>  
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 style="margin-bottom: 10px;">Register : </h5>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" name="firstname">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" name="lastname">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Course" name="course">
+              </div>
+              <div class="form-group mt-3">
+                <input type="time" class="form-control" id="formGroupExampleInput2" placeholder="Time" name="time">
+              </div>
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email" name="email">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" onclick="success2()">Submit</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Section C -->
     <!-- About -->
